@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+
+
+}
+.main{
+    background-color: blue;
+}
+button{
+    width: 60px;
+    color: brown;
+    padding-top: 10px;
+    background-color: blueviolet;
+}
