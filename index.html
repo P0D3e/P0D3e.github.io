@@ -1,12 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Min Sida</title>
+  <style>
+    body {
+      text-align: center;
+      background-image: url("https://media.tenor.com/3ZQWX3lg3NYAAAAM/thunder.gif");
+      background-size: cover;
+    }
+    #header {
+      padding: 20px;
+      background-color: transparent;
+      font-size: 24px;
+      color: white;
+      border-bottom: 2px solid purple;
+    }
+    #content {
+      margin-top: 50px;
+    }
+    #content img {
+      width: 400px;
+    }
+    #footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 10px;
+      background-color: #f2f2f2;
+      font-size: 16px;
+      text-align: center;
+    }
+    #redirect-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    #redirect-button:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
 <body>
-    <a href="gissa/gissa.html" target="_blank" rel="noopener noreferrer">till gissa talet</a>
+  <div id="left-triangle"></div>
+  <div id="right-triangle"></div>
+
+  <div id="header">
+    Välkommen till min sida
+  </div>
+  <div id="content">
+    <img src="https://media.tenor.com/Yc9kDf9z44gAAAAC/kryonax-skull.gif" alt="GIF">
+  </div>
+  <div id="footer">
+    <a href="https://www.federalreserve.gov/">https://www.federalreserve.gov/</a>
+  </div>
+
+  <audio autoplay>
+    <source src="PaintItBlack.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+  <button id="redirect-button" onclick="window.location.href='index2.html'">Uppgifter</button>
 </body>
 </html>
